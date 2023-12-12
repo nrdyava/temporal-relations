@@ -1,0 +1,43 @@
+{
+    # Default all-in-one configs
+    'seed': 0, 
+    'vit': 'vit_base_patch16_224', 
+    'shared_embedding_dim': 512, 
+    'hidden_size': 768, 
+    'num_heads': 12, 
+    'num_layers': 12, 
+    'drop_rate': 0.1, 
+    'image_size': 224,
+    'max_text_len': 40,
+    # Fixed training settings
+    'val_check_interval': 1.0, 
+    'optim_type': 'adamw', 
+    'learning_rate': 0.000001, 
+    'weight_decay': 0.1, 
+    'decay_power': 1, 
+    'warmup_steps': 0.1, 
+    'end_lr': 0, 
+    'lr_mult': 1,
+    'num_nodes': 1,  
+    'num_workers': 16, 
+    'precision': 16,
+    'fast_dev_run': False,
+    # Logging
+    'exp_name': 'multimodal', 
+    'log_dir': 'result', 
+    # Model settings
+    'use_clip': False,
+    'num_frames': 3,
+    # Training settings
+    'batch_size': 64,
+    'per_gpu_batchsize': 16,
+    'num_gpus': 4, 
+    'max_epoch': 50,
+    'test_only': False, 
+    # Masking settings
+    'masking_type': 'image',
+    'masking_prob': 0.0,
+    # Loading models
+    'load_path': '',
+    'resume_from': None,
+}
