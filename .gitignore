@@ -4,6 +4,6 @@ AllInOne/datamodules/__pycache__/
 AllInOne/datasets/__pycache__/
 AllInOne/modules/__pycache__/
 AllInOne/transforms/__pycache__/
-AllInOne/metadata/
-AllInOne/pretrained/
+metadata/
+pretrained/
 result/
