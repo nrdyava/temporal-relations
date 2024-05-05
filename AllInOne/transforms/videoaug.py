@@ -8,5 +8,5 @@ def VideoTransform(mode='train', crop_size=224):
         max_size=int(crop_size*1.5),
         crop_size=crop_size,
         aug_type='randaug',
-        num_samples=None
+        num_samples=None,
     )

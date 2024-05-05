@@ -82,6 +82,8 @@ def main(config_path):
     if not _config["test_only"]:
         trainer.fit(model, datamodule=dm)
     else:
+        model.eval()
+        # model.freeze()
         trainer.test(model, datamodule=dm)
 
 

@@ -1,6 +1,7 @@
 import os
 from train import main
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "2,3,4,5"
+# os.environ['CUDA_VISIBLE_DEVICES'] = "3"
+os.environ['TOKENIZERS_PARALLELISM'] = "true"
     
-main('config.yaml')
+main('config_clip.yaml')

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python llama.py --model_ckpt /dvmm-filer3a/users/hammad/llama/llama-2-13b-chat-hf/

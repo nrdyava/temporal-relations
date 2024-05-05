@@ -26,6 +26,9 @@ class BaseDataModule(LightningDataModule):
         self.max_text_len = _config["max_text_len"]
         self.masking_type = _config["masking_type"]
         self.masking_prob = _config["masking_prob"]
+        self.use_clip = _config["use_clip"]
+        self.use_git = _config["use_git"]
+        self.transform = not self.use_git
 
         collator = DataCollatorForLanguageModeling
         self.tokenizer = get_pretrained_tokenizer('bert-base-uncased')
@@ -60,6 +63,9 @@ class BaseDataModule(LightningDataModule):
             max_text_len=self.max_text_len,
             masking_type=self.masking_type,
             masking_prob=self.masking_prob,
+            transform=self.transform,
+            use_clip=self.use_clip,
+            use_git=self.use_git,
         )
 
     def set_val_dataset(self):
@@ -70,6 +76,9 @@ class BaseDataModule(LightningDataModule):
             max_text_len=self.max_text_len,
             masking_type=self.masking_type,
             masking_prob=self.masking_prob,
+            transform=self.transform,
+            use_clip=self.use_clip,
+            use_git=self.use_git,
         )
 
     def set_test_dataset(self):
@@ -80,6 +89,9 @@ class BaseDataModule(LightningDataModule):
             max_text_len=self.max_text_len,
             masking_type=self.masking_type,
             masking_prob=self.masking_prob,
+            transform=self.transform,
+            use_clip=self.use_clip,
+            use_git=self.use_git,
         )
 
     def train_dataloader(self):

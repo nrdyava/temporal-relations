@@ -1,0 +1,122 @@
+[
+    {
+        "text_1": [
+            "We fade in from black as the man talks ."
+        ],
+        "text_2": [
+            "We see his hand up close ."
+        ],
+        "caption_1": "The video shows a man in a vest looking at a cell phone. Then it shows a man in a vest playing a guitar. Then it shows a man in a vest looking at a cell phone. Then it shows a man in a vest playing a guitar. Then it shows a man in a vest is looking at his cell phone. Then it shows a man in a vest playing a guitar.",
+        "caption_2": "The video shows a man in a vest is playing a guitar. Then it shows a man in a vest playing a guitar. Then it shows a man in a vest playing a guitar. Then it shows a man playing a guitar on a stage. Then it shows a man in a vest playing a guitar. Then it shows a man playing a guitar on a stage.",
+        "comp": "starts",
+        "label": "before"
+    },
+    {
+        "text_1": [
+            "The two men then sit down at a table , shake hands and a black screen say 's \" Round 1 begin \" and they start to arm wrestle ."
+        ],
+        "text_2": [
+            "The next black screen has a different set of white words that read \" Who will win ? ? ? \" ."
+        ],
+        "caption_1": "The video shows a group of men standing next to each other. Then it shows a black background with the words who will win?. Then it shows a couple of men that are in a room. Then it shows a black background with the words who will win?. Then it shows a man with blue paint on his arm. Then it shows a black background with the words who will win?.",
+        "caption_2": "The video shows a couple of men that are standing in front of a table. Then it shows a black background with the words who will win?. Then it shows a couple of men sitting at a table with a knife. Then it shows a black background with the words who will win?. Then it shows a couple of men standing next to each other. Then it shows a blurry photo of a group of people riding on a motorcycle.",
+        "comp": "starts",
+        "label": "after"
+    },
+    {
+        "text_1": [
+            "In a black and white , people are climbing the snow and pulling snow sleds ."
+        ],
+        "text_2": [
+            "In a black and white , people walk down a tunnel ."
+        ],
+        "caption_1": "The video shows a group of people riding skis down a snow covered slope. Then it shows a group of people walking down a snow covered slope. Then it shows a group of people riding skis down a snow covered slope. Then it shows a group of people walking down a snow covered slope. Then it shows a group of people riding skis down a snow covered slope. Then it shows a couple of people that are walking in a tunnel.",
+        "caption_2": "The video shows a man riding skis down a snow covered slope. Then it shows a couple of people that are walking in a tunnel. Then it shows a group of people walking up a snow covered slope. Then it shows a couple of people walking through a tunnel. Then it shows a group of people riding skis down a snow covered slope. Then it shows a group of people walking through a tunnel.",
+        "comp": "ends",
+        "label": "before"
+    },
+    {
+        "text_1": [
+            "The person stops playing the guitar and lady stops singing ."
+        ],
+        "text_2": [
+            "The lady raises her hand and gestures during her vocal performance ."
+        ],
+        "caption_1": "The video shows a woman playing a guitar and singing into a microphone. Then it shows a black and white photo of a man in a suit and tie. Then it shows a woman playing a guitar and singing into a microphone. Then it shows a black and white photo of a man in a suit and tie. Then it shows a woman playing a guitar and singing into a microphone. Then it shows a man standing in a dark room holding a tennis racquet.",
+        "caption_2": "The video shows a woman playing a guitar and singing into a microphone. Then it shows a woman playing a guitar and singing into a microphone. Then it shows a woman playing a guitar and singing into a microphone. Then it shows a woman playing a guitar and singing into a microphone. Then it shows a woman playing a guitar and singing into a microphone. Then it shows a woman playing a guitar and singing into a microphone.",
+        "comp": "starts",
+        "label": "after"
+    },
+    {
+        "text_1": [
+            "Two teens join the children and karate fight ."
+        ],
+        "text_2": [
+            "Two children display their karate routine ."
+        ],
+        "caption_1": "The video shows a logo with a dragon on it. Then it shows a logo with a dragon on it. Then it shows a logo with a dragon on it. Then it shows a logo with a dragon on it. Then it shows a black and white photo of a person on a surfboard. Then it shows a logo with a dragon on it.",
+        "caption_2": "The video shows a black and white photo of a man in a suit and tie. Then it shows a close up of a kite with a dragon on it. Then it shows a black background with the words kenpo karate wellington on it. Then it shows a black and white photo of a man in a suit and tie. Then it shows a black background with the words kenpo karate wellington. Then it shows a black background with the words kenpo karate wellington.",
+        "comp": "ends",
+        "label": "after"
+    },
+    {
+        "text_1": [
+            "A gymnast stands on her hands exercising and spinning two hula rings with her feet , then , she stands and spins the hula rings around her hands , body and legs ."
+        ],
+        "text_2": [
+            "Next , the gymnast uses three rings to spin and make tricks ."
+        ],
+        "caption_1": "The video shows a person in a room with a frisbee. Then it shows a woman is doing a trick with a hula hoop. Then it shows a person doing a trick with a hula hoop. Then it shows a woman doing a trick with a hula hoop. Then it shows a person doing a trick with a hula hoop. Then it shows a woman doing a handstand in a dance studio.",
+        "caption_2": "The video shows a woman standing in a room with a hula hoop. Then it shows a woman doing a trick with a hula hoop. Then it shows a woman is doing a hula hoop trick. Then it shows a woman with a hula hoop in a room. Then it shows a woman in a yellow shirt and red pants doing a trick with a frisbee. Then it shows a person sitting on a chair in a dark room.",
+        "comp": "starts",
+        "label": "before"
+    },
+    {
+        "text_1": [
+            "The man finishes welding and the metal glows red hot ."
+        ],
+        "text_2": [
+            "The man picks up a tool from the ground ."
+        ],
+        "caption_1": "The video shows a person welding a piece of metal with a torch. Then it shows a man is welding a pipe with a welding torch. Then it shows a person welding a piece of metal with a torch. Then it shows a man is welding a pipe with a welding torch. Then it shows a man is welding a piece of metal. Then it shows a man is welding a pipe with a welding torch.",
+        "caption_2": "The video shows a man is welding a piece of metal. Then it shows a man is welding a pipe with a welding torch. Then it shows a man welding a piece of metal with a torch. Then it shows a man is welding a pipe with a welding torch. Then it shows a man is welding a piece of metal. Then it shows a man working on a pipe in a factory.",
+        "comp": "starts",
+        "label": "before"
+    },
+    {
+        "text_1": [
+            "The man spins the shovel again and words appear on the screen and he shovels more snow ."
+        ],
+        "text_2": [
+            "The man shovels the snow ."
+        ],
+        "caption_1": "The video shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance.",
+        "caption_2": "The video shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance. Then it shows a brown background with the words chicago blizzard february 2011 snow shovel dance joel lessing poledance.",
+        "comp": "ends",
+        "label": "after"
+    },
+    {
+        "text_1": [
+            "The individual puts some of the ingredients in small bowls into the mug ."
+        ],
+        "text_2": [
+            "One of the individuals extends a hand and manipulates the ingredients ."
+        ],
+        "caption_1": "The video shows a bottle of water sitting on top of a counter. Then it shows a black counter top topped with bowls of food. Then it shows a close up of a pair of scissors on a tile floor. Then it shows a black counter top topped with bowls of food. Then it shows a close up of a glass of water on a table. Then it shows a black counter top topped with bowls of food.",
+        "caption_2": "The video shows a glass pitcher sitting on top of a black counter. Then it shows a black counter top topped with bowls of food. Then it shows a person is holding a jar of pills. Then it shows a black counter top topped with bowls of food. Then it shows a person in a purple shirt is pouring something into a glass. Then it shows a person standing over a counter with some balls.",
+        "comp": "ends",
+        "label": "after"
+    },
+    {
+        "text_1": [
+            "Two men are in a weight room , one is sitting in a chair , and the other is standing on a mat about to jerk the bar ."
+        ],
+        "text_2": [
+            "Another man then comes along and attempts the weight and struggles at first but then gets it in the air before he drops it ."
+        ],
+        "caption_1": "The video shows a man in a blue shirt is lifting a barbell. Then it shows a man holding a barbell in a gym. Then it shows a man in a blue shirt is doing a squat with a barbell. Then it shows a man holding a barbell in a gym. Then it shows a man in a blue shirt is using a barbell. Then it shows a man in a blue shirt doing a barbell squat.",
+        "caption_2": "The video shows a man in a gym holding a barbell. Then it shows a man lifting a barbell in a gym. Then it shows a man holding a barbell in a gym. Then it shows a man doing a bench press in a gym. Then it shows a man holding a barbell in a gym. Then it shows a man in a blue shirt is using a machine.",
+        "comp": "ends",
+        "label": "before"
+    }
+]
