@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=0 python run_video_llama.py --cfg-path video_llama_eval_only_vl.yaml --model-type vicuna/
