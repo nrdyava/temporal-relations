@@ -38,7 +38,7 @@ def main(config_path):
         save_last=True,
     )
     now = datetime.datetime.now()
-    instance_name = f'{exp_name}_{now.year}_{now.month}_{now.day}'
+    instance_name = f'{exp_name}_{now.year}_{now.month}_{now.day}_{now.hour}_{now.minute}_{now.second}'
     log_dir = os.path.join(_config["log_dir"], instance_name)
     os.makedirs(log_dir, exist_ok=True)
     logger = pl.loggers.TensorBoardLogger(
