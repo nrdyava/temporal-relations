@@ -23,7 +23,7 @@
     'precision': 16,
     'fast_dev_run': False,
     # Logging
-    'exp_name': 'multimodal',
+    'exp_name': 'one_modality',
     'log_dir': 'tmp', 
     # Model settings
     'use_clip': False,
@@ -36,13 +36,13 @@
     'max_epoch': 50,
     'test_only': True, 
     # Masking settings
-    'masking_type': 'image',
-    'masking_prob': 0.0,
+    'masking_type': 'one_modality',
+    'masking_prob': 0.5,
     # Loading models
-    # 'load_path': '/dvmm-filer3a/users/kevin/all-in-one-main/pretrained/all-in-one-base.ckpt',
-    # 'load_path': '/home/kevin/nlp_2_2024_2_19/version_0/checkpoints/epoch=15-step=111647.ckpt',
-    'load_path': /dvmm-filer3a/users/kevin/temporal-relations/result/half_mask_2024_2_3/version_0/checkpoints/epoch=24-step=174449.ckpt,
-    # 'load_path': '/dvmm-filer3a/users/kevin/temporal-relations/tmp/multimodal_2024_3_16/version_0/checkpoints/epoch=31-step=223295.ckpt',
-    # 'load_path': '/dvmm-filer3a/users/kevin/temporal-relations/tmp/one_modality_2024_3_13/version_1/checkpoints/epoch=25-step=181427.ckpt',.c
+    #'load_path': '/dvmm-filer3a/users/kevin/all-in-one-main/pretrained/all-in-one-base.ckpt',
+    #'load_path': '/dvmm-filer3a/users/kevin/temporal-relations/result/multimodal_2024_3_16/version_0/checkpoints/epoch=31-step=223295.ckpt',
+    #'load_path': /dvmm-filer3a/users/kevin/temporal-relations/result/half_mask_2024_2_3/version_0/checkpoints/epoch=24-step=174449.ckpt,
+    'load_path': '/dvmm-filer3a/users/kevin/temporal-relations/result/one_modality_2024_3_13/version_1/checkpoints/epoch=25-step=181427.ckpt',
+    #'load_path': '/home/kevin/nlp_2_2024_2_19/version_0/checkpoints/epoch=15-step=111647.ckpt',
     'resume_from': None
 }

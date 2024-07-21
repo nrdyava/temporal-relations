@@ -8,7 +8,7 @@ import numpy as np
 import pickle as pk
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
-from AllInOne.datasets import ActivityNetDataset
+#from AllInOne.datasets import ActivityNetDataset
 from transformers import LlamaForCausalLM, LlamaTokenizer
 
 # text zeroshot
@@ -160,7 +160,7 @@ def run_llama(model, tokenizer, dataloader, torch_device, filter=False):
     return
 
 def eval_llama():
-    with open('llama_predictions/llama_zeroshot_filtered.json', 'r') as f:
+    with open('./llama_predictions/llama_zeroshot_filtered.json', 'r') as f:
         data = json.load(f)
 
     acc, unclear = [], []
