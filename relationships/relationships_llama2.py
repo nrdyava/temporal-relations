@@ -1,3 +1,4 @@
+import sys
 import os
 import csv
 import json
@@ -9,6 +10,10 @@ import numpy as np
 import pickle as pk
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
+
+allinone_path = os.path.dirname(os.getcwd())
+sys.path.append(allinone_path)
+
 from AllInOne.datasets import ActivityNetDataset
 from transformers import LlamaForCausalLM, LlamaTokenizer
 

@@ -65,7 +65,7 @@ class ActivityNetDataset(torch.utils.data.Dataset):
         super().__init__()
 
     def _load_metadata(self):
-        metadata_dir = './metadata/'
+        metadata_dir = '/dvmm-filer3a/users/nrdyava/temporal-relations/metadata/'
         split_files = {
             'train': 'train.json',
             'val': 'val_18k.json',

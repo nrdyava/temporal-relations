@@ -170,7 +170,7 @@ def eval_llama():
     acc = np.array(acc)
     unclear = np.array(unclear)
     print('Samples:', len(acc))
-    print('Accuracy:', acc.mean())
+    print('Accuracy:', acc.mean()
     print('Unclear rate:', unclear.mean())
 
 if __name__ == '__main__':
