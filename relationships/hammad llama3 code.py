@@ -1,13 +1,12 @@
 import os
 import torch
 import transformers
-
 from tqdm import tqdm
 from vllm import LLM, SamplingParams
 from transformers import AutoModel, AutoTokenizer
 from huggingface_hub import login
 
-cache_dir = '/home/hayyubi/.cache'
+cache_dir = '/dvmm-filer3a/users/nrdyava/hf_home'
 os.environ['HF_HOME'] = cache_dir
 hf_token = !cat $HF_HOME/huggingface/token
 
