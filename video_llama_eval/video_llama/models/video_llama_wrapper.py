@@ -7,20 +7,20 @@ import torch
 import torch.backends.cudnn as cudnn
 import gradio as gr
 
-from models.video_llama.common.config import Config
-from models.video_llama.common.dist_utils import get_rank
-from models.video_llama.common.registry import registry
-from models.video_llama.conversation.conversation_video import Chat, Conversation, default_conversation,SeparatorStyle,conv_llava_llama_2
+from video_llama.common.config import Config
+from video_llama.common.dist_utils import get_rank
+from video_llama.common.registry import registry
+from video_llama.conversation.conversation_video import Chat, Conversation, default_conversation,SeparatorStyle,conv_llava_llama_2
 import decord
 decord.bridge.set_bridge('torch')
 
 #%%
 # imports modules for registration
-from models.video_llama.datasets.builders import *
-from models.video_llama.models import *
-from models.video_llama.processors import *
-from models.video_llama.runners import *
-from models.video_llama.tasks import *
+from video_llama.datasets.builders import *
+from video_llama.models import *
+from video_llama.processors import *
+from video_llama.runners import *
+from video_llama.tasks import *
 
 class VideoLlamaWrapper(torch.nn.Module):
     def __init__(self, cfg, args):

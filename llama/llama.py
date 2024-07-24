@@ -160,8 +160,11 @@ def run_llama(model, tokenizer, dataloader, torch_device, filter=False):
     return
 
 def eval_llama():
-    with open('./llama_predictions/llama_zeroshot_filtered.json', 'r') as f:
+    with open('../llama_predictions/llama_blip_zeroshot_t1v2.json', 'r') as f:
         data = json.load(f)
+    
+    #with open('../llama_predictions/llama_zeroshot.json', 'r') as f:
+    #    data = json.load(f)
 
     acc, unclear = [], []
     for sample in data:
@@ -170,7 +173,7 @@ def eval_llama():
     acc = np.array(acc)
     unclear = np.array(unclear)
     print('Samples:', len(acc))
-    print('Accuracy:', acc.mean()
+    print('Accuracy:', acc.mean())
     print('Unclear rate:', unclear.mean())
 
 if __name__ == '__main__':

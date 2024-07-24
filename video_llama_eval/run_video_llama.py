@@ -9,6 +9,8 @@ import json
 import copy
 
 from torch.utils.data import Dataset, DataLoader
+
+sys.path.append("/dvmm-filer3a/users/nrdyava/temporal-relations")
 from video_llama_eval.video_llama.models.video_llama_wrapper import build_videollama_wrapper
 from AllInOne.datamodules.multitask_datamodule import MTDataModule
 import pytorch_lightning as pl

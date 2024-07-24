@@ -10,11 +10,11 @@ import logging
 import torch
 from omegaconf import OmegaConf
 
-from models.video_llama.common.registry import registry
-from models.video_llama.models.base_model import BaseModel
-from models.video_llama.models.blip2 import Blip2Base
-from models.video_llama.models.video_llama import VideoLLAMA
-from models.video_llama.processors.base_processor import BaseProcessor
+from video_llama.common.registry import registry
+from video_llama.models.base_model import BaseModel
+from video_llama.models.blip2 import Blip2Base
+from video_llama.models.video_llama import VideoLLAMA
+from video_llama.processors.base_processor import BaseProcessor
 
 
 __all__ = [
