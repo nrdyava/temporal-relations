@@ -8,15 +8,14 @@
 import os
 import sys
 
-#sys.path.append("/dvmm-filer3a/users/nrdyava/temporal-relations/video_llama_eval/video_llama")
-
 from omegaconf import OmegaConf
 
-from video_llama.common.registry import registry
-from video_llama.datasets.builders import *
-from video_llama.models import *
-from video_llama.processors import *
-from video_llama.tasks import *
+from models.video_llama.common.registry import registry
+
+from models.video_llama.datasets.builders import *
+from models.video_llama.models import *
+from models.video_llama.processors import *
+from models.video_llama.tasks import *
 
 
 root_dir = os.path.dirname(os.path.abspath(__file__))
