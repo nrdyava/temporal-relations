@@ -4,8 +4,8 @@
 #AllInOne/datasets/__pycache__/
 #AllInOne/modules/__pycache__/
 #AllInOne/transforms/__pycache__/
-**/__pycache__/
 metadata/
 pretrained/
 result/
+**/__pycache__/
 **/.ipynb_checkpoints
